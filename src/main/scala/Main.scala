@@ -24,7 +24,7 @@ object Main extends App {
           println(message)
         }
         case Right(notes) => {
-          val message = s"You got ${notes.thousand} thousand notes, ${notes.five_hundred} five hundred notes, ${notes.hundred} hundred notes, ${notes.fifty} fifty notes and ${notes.twenty} twenty notes."
+          val message = s"You've got ${notes.thousand} thousand notes, ${notes.five_hundred} five hundred notes, ${notes.hundred} hundred notes, ${notes.fifty} fifty notes and ${notes.twenty} twenty notes."
 
           println(message)
           println("Thank you.")
