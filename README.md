@@ -3,8 +3,7 @@
 How to build and run this application
 1. Clone project to your machine.
 2. Go to root directory of this application.
-3. Checkout develop branch.
-4. Issue 'sbt run' in your prefer CLI tools.
+3. Issue 'sbt run' in your prefer CLI tools.
 
 This application uses following libraries
 1. "com.google.inject" % "guice" % "4.1.0" : for dependency injection purpose which helps project more loosely coupled and makes unit test easier.
