@@ -10,6 +10,7 @@ object Main extends App {
 
   println("We have many type of notes.(thousand, five hundred, hundred, fifty and twenty)")
   println("You can config them in application.conf file")
+  println
 
   try {
     var flag = true
