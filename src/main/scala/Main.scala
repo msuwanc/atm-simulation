@@ -32,22 +32,6 @@ object Main extends App {
         }
       }
     }
-
-//    val wantedCash: Long = StdIn.readLine("How much do you want to withdraw?(positive number without decimal only): ").toLong
-//
-//    atmService.withdraw(Cash(wantedCash)) match {
-//      case Left(e) => {
-//        val message = e.getMessage.replaceAllLiterally("requirement failed: ", "")
-//
-//        println(message)
-//      }
-//      case Right(notes) => {
-//        val message = s"You got ${notes.thousand} thousand notes, ${notes.five_hundred} five hundred notes, ${notes.hundred} hundred notes, ${notes.fifty} fifty notes and ${notes.twenty} twenty notes."
-//
-//        println(message)
-//        println("Thank you.")
-//      }
-//    }
   } catch {
     case e: Exception => println("Positive number without decimal only!")
   }
