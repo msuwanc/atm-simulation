@@ -8,6 +8,9 @@ object Main extends App {
   val injector = Guice.createInjector(new Module)
   val atmService = injector.getInstance(classOf[AtmService])
 
+  println("We have many type of notes.(thousand, five hundred, hundred, fifty and twenty)")
+  println("You can config them in application.conf file")
+
   try {
     var flag = true
 
